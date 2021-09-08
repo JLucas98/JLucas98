@@ -95,8 +95,10 @@
 			var $win = $(window);
 			if ($win.scrollTop() > 200) {
 				$('.js-top').addClass('active');
+				$('.js-top').removeClass('jlheader');
 			} else {
-				$('.js-top').removeClass('active');
+			$('.js-top').removeClass('active');
+			$('.js-top').addClass('jlheader');
 			}
 
 		});

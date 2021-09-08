@@ -1052,14 +1052,15 @@ input[type="text"] {
   bottom: 20px;
   right: 20px;
   z-index: 999;
-  opacity: 0;
-  visibility: hidden;
+	opacity: 1;
+	visibility: visible;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+  rotate: 180deg;
 }
 .gototop.active {
-  opacity: 1;
+  rotate: none;
   visibility: visible;
 }
 .gototop a {
