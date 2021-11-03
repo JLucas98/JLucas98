@@ -16,7 +16,7 @@ body {
   font-size: 16px;
   line-height: 1.7;
   color: #4d4d4d;
-  background: #fff;
+  background: #FFFEFC;
 }
 
 #page {
@@ -70,17 +70,17 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 ::-webkit-selection {
-  color: #fff;
+  color: #FFFEFC;
   background: #FF9000;
 }
 
 ::-moz-selection {
-  color: #fff;
+  color: #FFFEFC;
   background: #FF9000;
 }
 
 ::selection {
-  color: #fff;
+  color: #FFFEFC;
   background: #FF9000;
 }
 
@@ -147,7 +147,7 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 30px;
   height: 4px;
   content: '';
-  background: #fff;
+  background: #FFFEFC;
   margin-left: -30px;
 }
 #customjl-header .display-tc h1 span:after,
@@ -158,7 +158,7 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 30px;
   height: 4px;
   content: '';
-  background: #fff;
+  background: #FFFEFC;
   margin-right: -30px;
 }
 @media screen and (max-width: 768px) {
@@ -203,18 +203,20 @@ h1, h2, h3, h4, h5, h6, figure {
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
-  height: 230px;
-  width: 300px;
+  height: 200px;
+  width: 200px;
   margin: 0 auto;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
+
+
 #customjl-header .display-tc .customjl-social-icons li a,
 .customjl-cover .display-tc .customjl-social-icons li a {
-  color: #fff;
+  color: #FFFEFC;
 }
 #customjl-header .display-tc .customjl-social-icons li a i,
 .customjl-cover .display-tc .customjl-social-icons li a i {
@@ -225,7 +227,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background: #FF9000;
 }
 #customjl-features h2 {
-  color: #fff;
+  color: #FFFEFC;
 }
 #customjl-features .services-padding {
   padding: 7em 0;
@@ -245,7 +247,7 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 100px;
   height: 100px;
   margin: 0 auto;
-  background: #fff;
+  background: ##FFFEFC;
   margin-bottom: 20px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -265,7 +267,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #customjl-features .feature-left h3 {
   font-size: 24px;
   font-weight: 400;
-  color: #fff;
+  color: #FFFEFC;
 }
 #customjl-features .feature-left p {
   font-size: 16px;
@@ -311,7 +313,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background: rgb(154, 85, 225, 0.9);
 }
 .customjl-bg-dark .customjl-heading h2 {
-  color: #fff !important;
+  color: #FFFEFC !important;
 }
 
 .info {
@@ -390,7 +392,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  color: #fff;
+  color: #FFFEFC;
   background: #2F3C4F;
   padding: 10px 10px 2px 10px;
   -webkit-border-radius: 2px;
@@ -522,7 +524,7 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 .timeline > li > .timeline-badge {
-  color: #fff;
+  color: #FFFEFC;
   width: 44px;
   height: 44px;
   line-height: 50px;
@@ -731,7 +733,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: table-cell;
   vertical-align: middle;
   height: 270px;
-  background: #fff;
+  background: #FFFEFC;
   opacity: 0;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
@@ -791,7 +793,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 0;
 }
 #customjl-started .customjl-heading h2 {
-  color: #fff;
+  color: #FFFEFC;
   margin-bottom: 20px !important;
 }
 #customjl-started .customjl-heading p {
@@ -800,7 +802,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #customjl-started .btn {
   height: 54px;
   border: none !important;
-  background: #fff;
+  background: #FFFEFC;
   color: #FF9000;
   font-size: 16px;
   text-transform: uppercase;
@@ -844,7 +846,7 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 100%;
   padding: 30px;
   float: left;
-  background: #fff;
+  background: #FFFEFC;
   -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.06);
   -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.06);
   box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.06);
@@ -1068,7 +1070,7 @@ input[type="text"] {
   height: 50px;
   display: table;
   background: rgba(0, 0, 0, 0.8);
-  color: #fff;
+  color: #FFFEFC;
   text-align: center;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1113,7 +1115,7 @@ input[type="text"] {
 
 .btn-primary {
   background: #FF9000;
-  color: #fff;
+  color: #FFFEFC;
   border: 2px solid #FF9000;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
@@ -1127,12 +1129,12 @@ input[type="text"] {
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
   background: #FF9000;
-  color: #fff;
+  color: #FFFEFC;
 }
 
 .btn-success {
   background: #5cb85c;
-  color: #fff;
+  color: #FFFEFC;
   border: 2px solid #5cb85c;
 }
 .btn-success:hover, .btn-success:focus, .btn-success:active {
@@ -1146,12 +1148,12 @@ input[type="text"] {
 }
 .btn-success.btn-outline:hover, .btn-success.btn-outline:focus, .btn-success.btn-outline:active {
   background: #5cb85c;
-  color: #fff;
+  color: #FFFEFC;
 }
 
 .btn-info {
   background: #5bc0de;
-  color: #fff;
+  color: #FFFEFC;
   border: 2px solid #5bc0de;
 }
 .btn-info:hover, .btn-info:focus, .btn-info:active {
@@ -1165,12 +1167,12 @@ input[type="text"] {
 }
 .btn-info.btn-outline:hover, .btn-info.btn-outline:focus, .btn-info.btn-outline:active {
   background: #5bc0de;
-  color: #fff;
+  color: #FFFEFC;
 }
 
 .btn-warning {
   background: #f0ad4e;
-  color: #fff;
+  color: #FFFEFC;
   border: 2px solid #f0ad4e;
 }
 .btn-warning:hover, .btn-warning:focus, .btn-warning:active {
@@ -1184,12 +1186,12 @@ input[type="text"] {
 }
 .btn-warning.btn-outline:hover, .btn-warning.btn-outline:focus, .btn-warning.btn-outline:active {
   background: #f0ad4e;
-  color: #fff;
+  color: #FFFEFC;
 }
 
 .btn-danger {
   background: #d9534f;
-  color: #fff;
+  color: #FFFEFC;
   border: 2px solid #d9534f;
 }
 .btn-danger:hover, .btn-danger:focus, .btn-danger:active {
@@ -1203,7 +1205,7 @@ input[type="text"] {
 }
 .btn-danger.btn-outline:hover, .btn-danger.btn-outline:focus, .btn-danger.btn-outline:active {
   background: #d9534f;
-  color: #fff;
+  color: #FFFEFC;
 }
 
 .btn-outline {
@@ -1239,7 +1241,7 @@ input[type="text"] {
   padding-right: 50px;
 }
 .btn.with-arrow:hover i {
-  color: #fff;
+  color: #FFFEFC;
   right: 18px;
   visibility: visible;
   opacity: 1;
@@ -1284,7 +1286,7 @@ input[type="text"] {
   width: 100%;
   height: 100%;
   z-index: 9999;
-  background: url(../images/loader.gif) center no-repeat #fff;
+  background: url(../images/loader.gif) center no-repeat #FFFEFC;
 }
 
 .js .animate-box {
