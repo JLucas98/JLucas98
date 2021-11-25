@@ -105,6 +105,8 @@
 	
 	};
 
+
+
 	var pieChart = function() {
 		$('.chart').easyPieChart({
 			scaleColor: false,

@@ -1,21 +1,31 @@
-<link href="css/stylesheet_contact.css"  rel="stylesheet">
-
-<div class="container">
-    <form action="action_page.php">
-  
-      <label for="fname">First Name</label>
-      <input type="text" id="fname" name="firstname" placeholder="Jesse">
-  
-      <label for="lname">Last Name</label>
-      <input type="text" id="lname" name="lastname" placeholder="Lucas">
-  
-      <label for="lname">Subject</label>
-      <input type="text" id="subject" name="subject" placeholder="">
-
-      <label for="Message">Message</label>
-      <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
-  
-      <input type="submit" value="Send Message">
-  
-    </form>
-  </div> 
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/stylesheet_contact.css"  >
+    </head>
+    <body>
+       
+<p>If you'd like to reach out, just leave your message here and I'll generally respond within 4 days.</p>
+        <div class="field--wrapper">
+          <label for="fname">First Name</label>
+          <input name="fname" placeholder="First Name" />
+        </div>
+        
+        <div class="field--wrapper">
+          <label for="lname">Last Name</label>
+          <input name="lname" placeholder="Last Name" />
+        </div>
+        
+        <div class="field--wrapper">
+          <label for="city">City</label>
+          <input name="city" placeholder="City" value="Springville" />
+        </div>
+    
+       
+    </body>
+</html>

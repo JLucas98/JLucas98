@@ -1,33 +1,27 @@
- /* Style inputs with type="text", select elements and textareas */
- input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-  }
-  
-  /* Style the submit button with a specific background color etc */
-  input[type=submit] {
-    background-color: #04AA6D;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  /* When moving the mouse over the submit button, add a darker green color */
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
-  
-  /* Add a background color and some padding around the form */
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-  } 
+.field--wrapper {
+  position:relative;
+  margin-bottom:20px;
+}
+label {
+  position:absolute;
+  top:-13px;
+  left:0;
+  font-size:11px;
+  color:#aaa;
+  transition: all 0.1s linear;
+  opacity:0;
+  font-weight:bold;
+}
+label.on {
+  color:#4481C4;
+}
+label.show {
+  top:-15px;
+  opacity:1;
+}
+
+body {
+  padding:20px;
+  /* the following line fixes a blink in chrome https://code.google.com/p/chromium/issues/detail?id=108025 */
+  -webkit-backface-visibility: hidden;
+}
